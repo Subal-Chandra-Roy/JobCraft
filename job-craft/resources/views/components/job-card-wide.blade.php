@@ -1,6 +1,6 @@
 @props(['job'])
 
-<div class="p-4 bg-white rounded flex flex-row gap-x-6 border border-transparent hover:border-blue-800 group transition-colors duration:300">
+<div class="p-4 bg-white rounded flex flex-row gap-x-6 border border-transparent hover:border-blue-800 group transition-colors duration:300 shadow-md shadow-gray-400">
     <div>
         <x-employer-logo :employer="$job->employer"/>
     </div>

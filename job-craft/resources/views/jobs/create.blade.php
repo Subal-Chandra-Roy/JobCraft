@@ -2,8 +2,8 @@
     <x-page-heading>Create a New Job</x-page-heading>
 
     <x-forms.form method="POST" action="/jobs">
-        <x-forms.input label="Title" name="title" placeholder="CEO" />
-        <x-forms.input label="Salary" name="salary" placeholder="50000" />
+        <x-forms.input label="Title" name="title" placeholder="Software Engineer" />
+        <x-forms.input label="Salary" name="salary" placeholder="60000" />
         <x-forms.input label="Location" name="location" placeholder="Dhaka" />
 
         <x-forms.select label="Schedule" name="schedule">
@@ -17,9 +17,9 @@
         
         <x-forms.input label="URL" name="url" placeholder="https://jobcraft.com" />
 
-        <x-forms.input label="Tags (comma separated)" name="tags" placeholder="Frontend, Backend, Manager" />
+        <x-forms.input label="Tags (comma separated)" name="tags" placeholder="Frontend,Backend,Manager" />
 
-        <x-forms.button>Publish</x-button>
+        <x-forms.button class="hover:bg-blue-500">Publish</x-button>
 
 
     </x-forms.form>

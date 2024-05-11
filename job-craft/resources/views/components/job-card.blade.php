@@ -1,6 +1,6 @@
 @props(['job'])
 
-<div class="p-4 bg-white rounded flex flex-col text-center border border-transparent hover:border-blue-800 group transition-colors duration:300">
+<div class="p-4 bg-white rounded flex flex-col text-center border border-transparent hover:border-blue-800 group transition-colors duration:300 shadow-md shadow-gray-400">
             <div class="self-start text-sm text-blue-800"><a href="#">{{$job->employer->name}}</a></div>
             <div class="py-8">
                 <h3 class="group-hover:text-blue-800 text-xl font-bold transition-colors duration:300">
